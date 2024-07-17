@@ -20,7 +20,7 @@ REVOKE privilege_name ON object_name FROM user_name;
 REVOKE INSERT ON employees FROM user_name;
 ```
 ## **[[ROLE]]**
-- **Purpose**: These are named groups of related privileges that can be granted to users. Using roles can simplify the management of user permissions..
+- **Purpose**: These are named groups of related privileges that can be granted to users. Using roles can simplify the management of user permissions.
 - **Example**: 
 ```sql
 CREATE ROLE manager;
