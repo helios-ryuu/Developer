@@ -73,7 +73,7 @@ Your feedback and contributions are highly valued and help enhance the quality o
 ## Donations
 If you appreciate the resources provided and would like to support further development, consider making a donation. Contributions help maintain and improve the content.
 You can support us via:
-- **[PayPal](#)**: [Donate Here](paypal.me/heliosngo) – Secure donations via PayPal. Buy me a coffee to show your support.
+- **PayPal**: [Donate Here](https://paypal.me/heliosngo) – Secure donations via PayPal. Buy me a coffee to show your support.
 Thank you for your generosity!
 ## References
 For further reading and resources, refer to the following:
