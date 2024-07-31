@@ -1,24 +1,20 @@
 # Developer's Knowledge Vault
-Welcome to the Developer's Knowledge Vault! This repository is a meticulously organized collection of notes and resources designed to help you deepen your understanding of JavaScript and SQL. Whether you are a beginner or an advanced learner, this vault provides a structured way to explore and master these technologies.
+This repository is a meticulously organized collection of notes and resources designed to help you deepen your understanding of various parts of information technology. Whether you are a beginner or an advanced learner, this vault provides a structured way to explore and master these technologies.
 ## Table of Contents
 ### JavaScript Learning
-- **[Basics](#)**  
-  Introduction to JavaScript and basic syntax, essential for any JavaScript development.
+- **Basics**: Introduction to JavaScript and basic syntax, essential for any JavaScript development.
   - **Introduction to JavaScript**: Overview of JavaScript, its history, and its role in web development.
   - **JavaScript Syntax**: Basic syntax, operators, and how to write your first JavaScript code.
-- **[Core Concepts](#)**  
-  Fundamental concepts that form the backbone of JavaScript programming.
-  - **Variables and Data Types**: Understanding different data types (strings, numbers, booleans) and how to declare and use variables.
+- **Core Concepts**: Fundamental concepts that form the backbone of JavaScript programming.
+  - **Variables and Data Types**: Understanding different data types (strings, numbers, Boolean) and how to declare and use variables.
   - **Functions and Scope**: How to define and use functions, and the concept of scope and closures.
   - **Objects and Arrays**: Working with objects and arrays to manage collections of data.
   - **Asynchronous JavaScript**: Managing asynchronous operations using Promises and Async/Await for better control over asynchronous code.
-- **[Advanced Topics](#)**  
-  Dive deeper into more complex and powerful features of JavaScript.
+- **Advanced Topics**: Dive deeper into more complex and powerful features of JavaScript.
   - **Closures and Prototypes**: Advanced topics including closures for data encapsulation and prototypes for inheritance.
   - **ES6+ Features**: Modern JavaScript features introduced in ES6 and later versions (e.g., arrow functions, destructuring).
   - **Error Handling**: Techniques for managing and handling errors in JavaScript applications.
-- **[Libraries and Frameworks](#)**  
-  Introduction to popular JavaScript libraries and frameworks that enhance development productivity.
+- **Libraries and Frameworks**: Introduction to popular JavaScript libraries and frameworks that enhance development productivity.
   - **Introduction to Popular Libraries**: Overview of widely-used libraries like React for building user interfaces, and Node.js for server-side JavaScript.
 ### SQL Learning
 - **Basics**  
@@ -28,22 +24,9 @@ Welcome to the Developer's Knowledge Vault! This repository is a meticulously or
 - **SQL Commands**  
   Detailed exploration of different SQL commands categorized into DML, DDL, DCL, and TCL.
   - **DML (Data Manipulation Language)**: Commands for manipulating data within tables.
-    - **SELECT**: Querying data from tables.
-    - **INSERT**: Adding new records to tables.
-    - **UPDATE**: Modifying existing records.
-    - **DELETE**: Removing records from tables.
   - **DDL (Data Definition Language)**: Commands for defining and modifying database structures.
-    - **CREATE**: Creating new tables and databases.
-    - **ALTER**: Modifying existing tables.
-    - **DROP**: Deleting tables and databases.
-    - **TRUNCATE**: Removing all records from a table without deleting the table itself.
   - **DCL (Data Control Language)**: Commands for managing permissions.
-    - **GRANT**: Assigning permissions to users.
-    - **REVOKE**: Removing permissions from users.
   - **TCL (Transaction Control Language)**: Commands for managing transactions.
-    - **COMMIT**: Saving changes made during a transaction.
-    - **ROLLBACK**: Reverting changes made during a transaction.
-    - **SAVEPOINT**: Creating points within a transaction to roll back to.
 - **Database Design**  
   Concepts and practices for designing efficient and effective database schemas.
   - **ER Model (Entity-Relationship Model)**: Designing databases using entities, relationships, and attributes.
@@ -80,4 +63,4 @@ For further reading and resources, refer to the following:
 - **JavaScript Documentation**: [W3School - JavaScript](https://www.w3schools.com/js/) – Comprehensive documentation and tutorials on JavaScript.
 - **SQL Documentation**: [W3Schools - SQL](https://www.w3schools.com/sql/) – SQL tutorials and reference guide.
 - **Database Design**: [Database Design - Wikipedia](https://en.wikipedia.org/wiki/Database_design) – Overview of database design principles and practices.
-Feel free to explore the vault, learn, and enjoy your journey through JavaScript and SQL!
+Feel free to explore the vault!
