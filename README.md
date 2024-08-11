@@ -1,66 +1,48 @@
-# Developer's Knowledge Vault
-This repository is a meticulously organized collection of notes and resources designed to help you deepen your understanding of various parts of information technology. Whether you are a beginner or an advanced learner, this vault provides a structured way to explore and master these technologies.
-## Table of Contents
-### JavaScript Learning
-- **Basics**: Introduction to JavaScript and basic syntax, essential for any JavaScript development.
-  - **Introduction to JavaScript**: Overview of JavaScript, its history, and its role in web development.
-  - **JavaScript Syntax**: Basic syntax, operators, and how to write your first JavaScript code.
-- **Core Concepts**: Fundamental concepts that form the backbone of JavaScript programming.
-  - **Variables and Data Types**: Understanding different data types (strings, numbers, Boolean) and how to declare and use variables.
-  - **Functions and Scope**: How to define and use functions, and the concept of scope and closures.
-  - **Objects and Arrays**: Working with objects and arrays to manage collections of data.
-  - **Asynchronous JavaScript**: Managing asynchronous operations using Promises and Async/Await for better control over asynchronous code.
-- **Advanced Topics**: Dive deeper into more complex and powerful features of JavaScript.
-  - **Closures and Prototypes**: Advanced topics including closures for data encapsulation and prototypes for inheritance.
-  - **ES6+ Features**: Modern JavaScript features introduced in ES6 and later versions (e.g., arrow functions, destructuring).
-  - **Error Handling**: Techniques for managing and handling errors in JavaScript applications.
-- **Libraries and Frameworks**: Introduction to popular JavaScript libraries and frameworks that enhance development productivity.
-  - **Introduction to Popular Libraries**: Overview of widely-used libraries like React for building user interfaces, and Node.js for server-side JavaScript.
-### SQL Learning
-- **Basics**  
-  Fundamental concepts and basic syntax of SQL.
-  - **Introduction to SQL**: Overview of SQL, its purpose, and its role in database management.
-  - **SQL Syntax**: Basic syntax rules and structure of SQL commands.
-- **SQL Commands**  
-  Detailed exploration of different SQL commands categorized into DML, DDL, DCL, and TCL.
-  - **DML (Data Manipulation Language)**: Commands for manipulating data within tables.
-  - **DDL (Data Definition Language)**: Commands for defining and modifying database structures.
-  - **DCL (Data Control Language)**: Commands for managing permissions.
-  - **TCL (Transaction Control Language)**: Commands for managing transactions.
-- **Database Design**  
-  Concepts and practices for designing efficient and effective database schemas.
-  - **ER Model (Entity-Relationship Model)**: Designing databases using entities, relationships, and attributes.
-    - **Entities**: Objects or concepts about which data is stored.
-    - **Relationships**: Associations between entities.
-    - **Attributes**: Properties or details of entities.
-    - **ER Diagrams**: Visual representations of the ER model.
-  - **Normalization**: Process of organizing data to reduce redundancy and improve data integrity.
-  - **Schema Design**: Structuring database schemas for optimal performance and organization.
-- **Concepts**  
-  Key concepts related to database management and design.
-  - **Levels of Abstraction**: Different levels of abstraction in database design.
-    - **Physical Level**: How data is stored physically.
-    - **Logical Level**: How data is structured logically.
-    - **Conceptual Level**: Overall view of the database and its structure.
-  - **Indexing**: Techniques to improve query performance by creating indexes on database columns.
-## Getting Started
-To get started with the content in this vault:
-1. **Explore the folders and files**: Navigate through the organized structure to find notes and resources relevant to your learning goals.
-2. **Use the notes as references**: Leverage the detailed notes to understand key concepts, syntax, and practices.
-3. **Practice and apply**: Utilize the examples and exercises provided to reinforce your learning and apply concepts in real-world scenarios.
-## Contributing
-If you find any errors, have suggestions for improvement, or wish to add new content, contributions are welcome. You can contribute by:
-- Opening an issue to report bugs or suggest enhancements.
-- Submitting a pull request with your changes or additions.
-Your feedback and contributions are highly valued and help enhance the quality of this resource.
-## Donations
-If you appreciate the resources provided and would like to support further development, consider making a donation. Contributions help maintain and improve the content.
-You can support us via:
-- **PayPal**: [Donate Here](https://paypal.me/heliosngo) – Secure donations via PayPal. Buy me a coffee to show your support.
-Thank you for your generosity!
-## References
-For further reading and resources, refer to the following:
-- **JavaScript Documentation**: [W3School - JavaScript](https://www.w3schools.com/js/) – Comprehensive documentation and tutorials on JavaScript.
-- **SQL Documentation**: [W3Schools - SQL](https://www.w3schools.com/sql/) – SQL tutorials and reference guide.
-- **Database Design**: [Database Design - Wikipedia](https://en.wikipedia.org/wiki/Database_design) – Overview of database design principles and practices.
-Feel free to explore the vault!
+# Developer
+## Trước khi bắt đầu
+Nội dung trong kho dữ liệu được tạo ra và phát triển trên phần mềm [Obsidian](https://obsidian.md/). Vì vậy việc xem các tài liệu trên trang web GitHub đôi khi sẽ không đúng định dạng. Chúng tôi khuyến khích bạn sử dụng một trong hai cách dưới đây để sử dụng kho dữ liệu một cách trọn vẹn:
+1. **Clone vault Obsidian về máy cá nhân thông qua Git**
+	- **Bước 1**: Cài đặt Git
+		- Đảm bảo rằng bạn đã cài đặt Git trên máy tính của mình. Nếu chưa, bạn có thể tải Git từ [trang chủ của Git](https://git-scm.com/) và cài đặt theo hướng dẫn.
+	- **Bước 2**: Clone repository
+		- Mở Terminal (trên macOS hoặc Linux) hoặc Command Prompt (trên Windows).
+		- Di chuyển đến thư mục mà bạn muốn lưu vault Obsidian:
+		```bash
+		cd đường_dẫn_đến_thư_mục
+		```
+		- Sử dụng lệnh sau để clone vault từ GitHub về máy tính:
+		```bash
+	    git clone https://github.com/helios-ryuu/Developer.git
+		```
+	- **Bước 3**: Mở vault trong Obsidian
+		- Mở ứng dụng [Obsidian](https://obsidian.md/).
+		- Chọn "Open folder as vault" và chọn thư mục chứa vault mà bạn vừa clone về.
+2. **Hướng dẫn tải về vault Obsidian qua file zip**
+	- **Bước 1**: Truy cập vào repository
+		- Mở trình duyệt web và truy cập vào trang GitHub repository chứa vault Obsidian
+	- **Bước 2**: Tải về file zip
+		- Tại trang repository, nhấp vào nút **"Code"** màu xanh lá.
+		- Chọn **"Download ZIP"** từ menu thả xuống.
+	- **Bước 3**: Giải nén file zip
+		- Sau khi tải về, hãy giải nén file zip vào một thư mục mà bạn muốn lưu vault.
+	- **Bước 4**: Mở vault trong Obsidian
+		- Mở ứng dụng Obsidian.
+		- Chọn "Open folder as vault" và chọn thư mục mà bạn đã giải nén.
+## Hướng dẫn sử dụng
+Sử dụng nội dung trong kho dữ liệu này như sau (Hoặc bằng bất kỳ cách nào bạn cảm thấy hiệu quả :wink:):
+1. **Khám phá các chủ đề**: Tìm hiểu các ghi chú và tài nguyên liên quan đến mục tiêu học tập của bạn.
+2. **Sử dụng các ghi chú làm tài liệu tham khảo**: Tận dụng các ghi chú chi tiết để hiểu các khái niệm chính, cú pháp và thực hành trong thực tiễn.
+3. **Thực hành và áp dụng**: Sử dụng các ví dụ và bài tập được cung cấp để củng cố việc học của bạn.
+## Đóng góp
+Nếu bạn tìm thấy lỗi hoặc có đề xuất cải tiến, thêm nội dung mới thì hãy đóng góp cho chúng tôi. Bạn có thể đóng góp bằng cách:
+- Mở [issue](https://github.com/helios-ryuu/Developer/issues) để báo cáo lỗi hoặc đề xuất cải thiện.
+- Gửi [pull request](https://github.com/helios-ryuu/Developer/pulls) với các thay đổi hoặc bổ sung của bạn.
+Phản hồi và đóng góp của bạn có thể giúp nâng cao chất lượng của kho dữ liệu này.
+## Ủng hộ tác giả
+Nếu bạn cảm thấy kho dữ liệu này hữu ích thì bạn có thể ủng hộ chúng tôi với giá chỉ bằng một cốc cà phê :coffee: hoặc một hộp cơm :bento: nhé. Sự ủng hộ của bạn là nguồn động lực to lớn cho chúng tôi để tiếp tục duy trì và cải thiên nội dung.
+- **PayPal**: [Ủng hộ tại đây](https://paypal.me/heliosngo) – Chuyển khoản một cách an toàn và nhanh chóng thông qua PayPal. Cảm ơn bạn!
+## Tham khảo
+Các nguồn kiến thức để tham khảo thêm:
+- **JavaScript**: [W3School - JavaScript](https://www.w3schools.com/js/) - dữ liệu và các chỉ dẫn của JavaScript.
+- **SQL**: [W3Schools - SQL](https://www.w3schools.com/sql/) - dữ liệu và các chỉ dẫn của SQL.
+- **Thiết kế cơ sở dữ liệu**: [Wikipedia - Database Design](https://en.wikipedia.org/wiki/Database_design) - Tổng quan về các nguyên tắc và thực tiễn của thiết kế cơ sở dữ liệu.

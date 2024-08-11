@@ -1,5 +1,5 @@
 # SQL
-**SQL** (Structured Query Language) is a standard language used for managing and manipulating relational databases. It is used for querying, updating, and managing data.
+**SQL** (Structured Query Language) is a standard language used for managing and manipulating relational databases (cơ sở dữ liệu quan hệ). It is used for querying, updating, and managing data.
 ## Data Manipulation Language (DML)
 **DML** commands are used to interact with and manipulate data in database tables. They allow you to retrieve, insert, update, and delete data.
 
