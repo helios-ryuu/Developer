@@ -29,7 +29,7 @@ The content in this repository was created and developed using the [Obsidian](ht
         - Open the Obsidian application.
         - Select "Open folder as vault" and choose the directory where you extracted the files.
 ## Usage Guide
-Use the content in this repository as follows (or in any way you find effective 😉):
+Use the content in this repository as follows (or in any way you find effective :wink):
 1. **Explore the topics**: Browse through the notes and resources related to your learning goals.
 2. **Use the notes as references**: Utilize the detailed notes to understand key concepts, syntax, and practical applications.
 3. **Practice and apply**: Use the examples and exercises provided to reinforce your learning.
@@ -39,7 +39,7 @@ If you find any errors or have suggestions for improvements, please contribute t
 - Submitting a [pull request](https://github.com/helios-ryuu/Developer/pulls) with your changes or additions.
 Your feedback and contributions can help improve the quality of this repository.
 ## Support the Author
-If you find this repository helpful, you can support us for the price of a cup of coffee ☕ or a lunch box 🍱. Your support is a great motivation for us to continue maintaining and improving the content.
+If you find this repository helpful, you can support us for the price of a cup of coffee :coffee: or a lunch box :bento:. Your support is a great motivation for us to continue maintaining and improving the content.
 - **PayPal**: [Support here](https://paypal.me/heliosngo) – Safely and quickly donate via PayPal. Thank you!
 ## References
 Additional sources of knowledge:
