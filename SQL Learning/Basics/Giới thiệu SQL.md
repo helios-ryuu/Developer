@@ -1,5 +1,11 @@
 # SQL
 SQL (Structured Query Language - Ngôn ngữ truy vấn có cấu trúc) là một ngôn ngữ tiêu chuẩn dùng để quản lý và thực hiện các thao tác trên các cơ sở dữ liệu quan hệ (Relational database). Nó dùng để truy vấn (Query), cập nhật (Update) và quản lý (Manage) dữ liệu trong cơ sở dữ liệu.
+## Truy vấn - Query
+Truy vấn (Query) là một yêu cầu lấy dữ liệu hoặc thông tin từ cơ sở dữ liệu. Truy vấn thường được viết bằng SQL và có thể thực hiện các thao tác như:
+- Truy xuất dữ liệu cụ thể (sử dụng `SELECT`).
+- Lọc dữ liệu dựa trên các điều kiện (Condition).
+- Cập nhật hoặc xóa dữ liệu.
+- Thực hiện các phép tính và tổng hợp dữ liệu (Aggregation).
 ## Ngôn ngữ thao tác dữ liệu - DML
 Các lệnh DML (Data Manipulation Language) được dùng để tương tác và điều chỉnh dữ liệu trong các bảng (Table) của cơ sở dữ liệu. Chúng cho phép bạn truy xuất (Retrieve), chèn (Insert), cập nhật (Update) và xóa dữ liệu (Delete).
 
@@ -52,7 +58,7 @@ Các lệnh DCL (Data Control Language) quản lý quyền truy cập vào dữ 
 | **REVOKE**      | Thu hồi quyền từ người dùng hoặc vai trò.                                     |
 | **SET ROLE**    | Kích hoạt hoặc hủy kích hoạt vai trò cho một phiên người dùng (User Session). |
 | **SHOW GRANTS** | Liệt kê các quyền đã được cấp cho một người dùng.                             |
-## Ngôn ngữ Điều khiển Giao dịch - TCL
+## Ngôn ngữ điều khiển giao dịch - TCL
 Các lệnh TCL (Transaction Control Language) quản lý các giao dịch (Transaction) để đảm bảo tính nhất quán (Consistency) và toàn vẹn (Integrity) của cơ sở dữ liệu.
 
 | Keyword               | Function                                                                            |
@@ -65,41 +71,33 @@ Các lệnh TCL (Transaction Control Language) quản lý các giao dịch (Tran
 | **SET TRANSACTION**   | Cấu hình các thuộc tính của giao dịch như mức độ cô lập (Isolation Level).          |
 | **START TRANSACTION** | Khởi tạo một giao dịch mới, đánh dấu sự bắt đầu của một chuỗi các thao tác.         |
 # SQL Server
-**SQL Server** is a relational database management system (RDBMS) by Microsoft. It supports SQL for database operations and offers various services.
-### Services
-- **Database Engine**: Core service for data storage, processing, and security.
-- **SQL Server Agent**: Manages and schedules jobs.
-- **SQL Server Reporting Services (SSRS)**: Creates and manages reports.
-- **SQL Server Integration Services (SSIS)**: Handles data integration and workflow.
-- **SQL Server Analysis Services (SSAS)**: Provides OLAP and data mining capabilities.
-# Query
-A **query** is a request for data or information from a database. Queries are typically written in SQL and can perform operations such as:
-- Retrieving specific data (using `SELECT`).
-- Filtering data based on conditions.
-- Updating or deleting data.
-- Performing calculations and aggregations.
+SQL Server là một hệ quản trị cơ sở dữ liệu quan hệ (Relational Database Management System - RDBMS) của Microsoft. Nó hỗ trợ SQL cho các thao tác cơ sở dữ liệu và cung cấp nhiều dịch vụ khác nhau.
+### Dịch vụ - Services
+- **Database Engine**: Dịch vụ cốt lõi cho lưu trữ, xử lý và bảo mật dữ liệu.
+- **SQL Server Agent**: Quản lý và lên lịch các công việc.
+- **Dịch vụ báo cáo của SQL Server (SQL Server Reporting Services - SSRS)**: Tạo và quản lý báo cáo.
+- **Dịch vụ tích hợp của SQL Server (SQL Server Integration Services - SSIS)**: Xử lý tích hợp dữ liệu (Data Integration) và luồng công việc (Workflow).
+- **Dịch vụ phân tích của SQL Server (SQL Server Analysis Services - SSAS)**: Cung cấp khả năng OLAP (Online Analytical Processing) và khai phá dữ liệu.
 # NoSQL
-**NoSQL** databases are non-relational and designed for handling various data models with flexible schemas. They are suitable for large volumes of unstructured or semi-structured data.
-### Types of NoSQL Databases
-- **Document Stores**: Store data as documents (e.g., JSON) (e.g., MongoDB, CouchDB).
-- **Key-Value Stores**: Store data as key-value pairs (e.g., Redis, DynamoDB).
-- **Wide-Column Stores**: Organize data in tables with rows and dynamic columns (e.g., Cassandra, HBase).
-- **Graph Databases**: Represent data in graph structures with nodes and edges (e.g., Neo4j, OrientDB).
+**NoSQL** là các cơ sở dữ liệu phi quan hệ (Non-relational Database), được thiết kế để xử lý các mô hình dữ liệu khác nhau với cấu trúc linh hoạt. Chúng phù hợp cho việc xử lý khối lượng lớn dữ liệu không cấu trúc hoặc bán cấu trúc.
+### Các loại cơ sở dữ liệu NoSQL
+- **Document Stores**: Lưu trữ dữ liệu dưới dạng tài liệu (ví dụ: JSON) (ví dụ: MongoDB, CouchDB).
+- **Key-Value Stores**: Lưu trữ dữ liệu dưới dạng cặp khóa-giá trị (ví dụ: Redis, DynamoDB).
+- **Wide-Column Stores**: Tổ chức dữ liệu trong các bảng với hàng và cột động (ví dụ: Cassandra, HBase).
+- **Graph Databases**: Biểu diễn dữ liệu dưới dạng cấu trúc đồ thị với các nút và cạnh (ví dụ: Neo4j, OrientDB).
 # Entity-Relationship Model
-The **Entity-Relationship (ER) Model** is used to visually represent data entities and their relationships in database design. Its components are [[Entities]], [[Keys]], [[Relationships]].
-## Extended ER Model
-### Specialization and Generalization
-**Specialization** and **Generalization** manage hierarchical relationships and inheritance.
-#### Specialization
-**Specialization** is the process of defining sub-entities from a higher-level entity based on distinguishing characteristics.
-- **Example**:
-    - **Entity**: Employee
-    - **Sub-entities**: Engineer, Manager, Technician
-    - **Attributes**:
-        - Engineer: Programming Language
-        - Manager: Department
-        - Technician: Skill Level
-#### Generalization
+Mô hình quan hệ thực thể (ER Model) được sử dụng để biểu diễn trực quan các thực thể và mối quan hệ giữa chúng trong thiết kế cơ sở dữ liệu. Thành phần chính gồm: Thực thể (Entities), Khóa (Keys), và Quan hệ (Relationships).
+## Mô hình ER mở rộng - Extended ER Model
+### Chuyên biệt hóa và tổng quát hóa - Specialization and Generalization
+Chuyên biệt hóa (Specialization) và tổng quát hóa (Generalization) quản lý các mối quan hệ phân cấp (Hierarchical Relationship) và thừa kế (Inheritance).
+- **Chuyên biệt hóa (Specialization)**: là quá trình định nghĩa các thực thể con từ một thực thể cấp cao dựa trên các đặc điểm phân biệt.
+- **Ví dụ**:
+    - **Thực thể (Entity)**: Nhân viên - Employee
+    - **Thực thể con**: Kỹ sư - Engineer, Quản lý - Manager, Kỹ thuật viên - Technician
+    - **Thuộc tính**:
+        - Kỹ sư: Ngôn ngữ lập trình - Programming Language
+        - Quản lý: Phòng ban - Department
+        - Kỹ thuật viên: Trình độ kỹ năng - Skill Level
 **Generalization** combines multiple entities into a single higher-level entity based on common attributes.
 - **Example**:
     - **Entities**: Car, Truck, Motorcycle
